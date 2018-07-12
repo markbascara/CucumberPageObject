@@ -1,0 +1,16 @@
+QATools\MavenCucumberPageObject\HomePage.class
+QATools\MavenCucumberPageObject\ConfirmationPage.class
+QATools\MavenCucumberPageObject\LoginPage.class
+QATools\MavenCucumberProject\goToCartStepDefinition.class
+QATools\MavenCucumberProject\stepDefinition.class
+QATools\MavenCucumberProject\logInStepDefinition.class
+QATools\MavenCucumberPageObject\CheckOutPage.class
+QATools\MavenCucumberProject\RunnerTest.class
+QATools\MavenCucumberProject\setBrowserConfig.class
+QATools\MavenCucumberProject\checkoutStepDefinition.class
+QATools\MavenCucumberPageObject\AddToCart.class
+QATools\MavenCucumberPageObject\ShoppingCart.class
+QATools\MavenCucumberProject\logoutStepDefinition.class
+QATools\MavenCucumberPageObject\LogOutPage.class
+QATools\MavenCucumberProject\addToCartStepDefinition.class
+QATools\MavenCucumberPageObject\AbstractPage.class

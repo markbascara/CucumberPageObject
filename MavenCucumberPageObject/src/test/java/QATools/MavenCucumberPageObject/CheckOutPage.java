@@ -16,11 +16,13 @@ public class CheckOutPage extends AbstractPage {
 	}
 
 	public CheckOutPage populateFirstNameBilling() {
+		driver.findElement(By.id("BillingNewAddress_FirstName")).clear();
 		driver.findElement(By.id("BillingNewAddress_FirstName")).sendKeys("Mark");
 		return new CheckOutPage(driver);
 	}
 
 	public CheckOutPage populateLastNameBilling() {
+		driver.findElement(By.id("BillingNewAddress_LastName")).clear();
 		driver.findElement(By.id("BillingNewAddress_LastName")).sendKeys("Tester");
 		return new CheckOutPage(driver);
 	}
@@ -37,21 +39,25 @@ public class CheckOutPage extends AbstractPage {
 	}
 
 	public CheckOutPage populateCityBilling() {
+		driver.findElement(By.id("BillingNewAddress_City")).clear();
 		driver.findElement(By.id("BillingNewAddress_City")).sendKeys("Auckland");
 		return new CheckOutPage(driver);
 	}
 
 	public CheckOutPage populateAddress1Billing() {
+		driver.findElement(By.id("BillingNewAddress_Address1")).clear();
 		driver.findElement(By.id("BillingNewAddress_Address1")).sendKeys("53 Cook St.");
 		return new CheckOutPage(driver);
 	}
 
 	public CheckOutPage populateZipPostalCodeBilling() {
+		driver.findElement(By.id("BillingNewAddress_ZipPostalCode")).clear();
 		driver.findElement(By.id("BillingNewAddress_ZipPostalCode")).sendKeys("1010");
 		return new CheckOutPage(driver);
 	}
 
 	public CheckOutPage populatePhoneNumberBilling() {
+		driver.findElement(By.id("BillingNewAddress_PhoneNumber")).clear();
 		driver.findElement(By.id("BillingNewAddress_PhoneNumber")).sendKeys("0272135846");
 		return new CheckOutPage(driver);
 	}
